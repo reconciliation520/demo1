@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="Crescendo")
+app = FastAPI(title="demo")
 
 @app.get("/")
 def read_root():
